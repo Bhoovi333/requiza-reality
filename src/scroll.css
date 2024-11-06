@@ -1,0 +1,15 @@
+
+.scroll-indicator {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.scroll-indicator.active {
+  opacity: 0.5;
+}
